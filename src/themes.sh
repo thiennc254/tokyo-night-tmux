@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+h
 
 SELECTED_THEME="$(tmux show-option -gv @tokyo-night-tmux_theme)"
 TRANSPARENT_THEME="$(tmux show-option -gv @tokyo-night-tmux_transparent)"
@@ -74,6 +74,7 @@ case $SELECTED_THEME in
     ["bred"]="#ff9e64"
     ["bwhite"]="#787c99"
     ["byellow"]="#e0af68"
+    ["default"]="#1A1B26"
   )
   ;;
 esac
